@@ -8,7 +8,8 @@ namespace TourStops_MultiPF
         {
             //InitializeComponent();
 
-            MainPage = new NavigationPage(new ContentPages.StartPage());
+            //MainPage = new NavigationPage(new ContentPages.StartPage());
+            MainPage = null;
         }
 
         protected override void OnStart()
